@@ -15,11 +15,17 @@ import org.springframework.format.annotation.DateTimeFormat;
 @AllArgsConstructor
 @NoArgsConstructor
 public class MusicModel {
+    //id
     private String mid;
+    //歌曲名称
     private String name;
+    //歌曲类型
     private String type;
+    //歌手
     private String singer;
+    //国家
     private String country;
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    //时间
+//    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private String data;
 }

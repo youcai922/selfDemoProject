@@ -1,2 +1,5 @@
 server:
   port: 8888
+
+weather:
+  key: SV6yK01eFy5jpzfD2
