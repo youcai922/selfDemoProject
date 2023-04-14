@@ -21,6 +21,7 @@
         <module>common</module>
         <module>QqRobot</module>
         <module>elasticsearchDemo</module>
+        <module>ssh</module>
     </modules>
 
     <properties>
